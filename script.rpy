@@ -5,14 +5,19 @@ define k = Character("Kai")
 
 label start:
   
-    scene 
+    scene campodeflores
 
     "Dois irmãos lutam pela liderança do clã dos lobos"
+
+    show pisquinha
 
     p "Não quero brigar com você irmão..."
 
     p "Essa luta não faz sentido pra mim!"
 
+    hide pisquinha
+
+    show husk
 
     h "Deixa de conversa mole Pisquinha!"
 
