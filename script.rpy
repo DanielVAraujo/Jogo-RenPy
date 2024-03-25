@@ -12,12 +12,16 @@ define k = Character("Kai")
 
 label start:
 
+    
+    play music "audio/headofsteal.mp3"
+
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
     scene campodeflores
-
+    with fade
+    
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
@@ -26,13 +30,13 @@ label start:
 
     "Dois irmãos lutam pela liderança do clã dos lobos"
 
-    show pisquinha
+    show pisquinha at left
 
     p "Não quero brigar com você irmão..."
 
     p "Essa luta não faz sentido pra mim!"
 
-    hide pisquinha
+    show husk at right
 
     h "Deixa de conversa mole Pisquinha!"
 
