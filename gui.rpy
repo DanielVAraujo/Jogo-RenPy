@@ -27,7 +27,7 @@ define config.check_conflicting_properties = True
 
 ## Uma cor de destaque usada em toda a interface para rotular e destacar o
 ## texto.
-define gui.accent_color = '#0066cc'
+define gui.accent_color = '#99ccff'
 
 ## A cor usada para um botão de texto quando ele não está selecionado nem passa
 ## o mouse.
@@ -38,7 +38,7 @@ define gui.idle_color = '#888888'
 define gui.idle_small_color = '#aaaaaa'
 
 ## A cor que é usada para botões e barras que passam pelo mouse.
-define gui.hover_color = '#66a3e0'
+define gui.hover_color = '#c1e0ff'
 
 ## A cor usada em um botão de texto quando ele está selecionado, mas não
 ## focalizado. Um botão estará selecionado se for a tela atual ou o valor de
@@ -51,8 +51,8 @@ define gui.insensitive_color = '#8888887f'
 ## Cores usadas para as partes das barras que não estão preenchidas. Elas não
 ## são usadas diretamente, mas são usadas ao gerar novamente os arquivos de
 ## imagem de barra.
-define gui.muted_color = '#002851'
-define gui.hover_muted_color = '#003d7a'
+define gui.muted_color = '#3d5166'
+define gui.hover_muted_color = '#5b7a99'
 
 ## As cores usadas para o diálogo e o texto da opção de menu.
 define gui.text_color = '#ffffff'
