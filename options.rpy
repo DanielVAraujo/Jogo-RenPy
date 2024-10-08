@@ -12,7 +12,7 @@
 ##
 ## O _() ao redor da string a marca como elegível para tradução.
 
-define config.name = _("Teste")
+define config.name = _("Rotten Carnis Game")
 
 
 ## Determina se o título fornecido acima será mostrado na tela do menu
@@ -37,7 +37,7 @@ define gui.about = _p("""
 ## construída. Ele deve ser somente ASCII e não deve conter espaços, dois pontos
 ## ou ponto e vírgula.
 
-define build.name = "Teste"
+define build.name = "RottenCarnisGame"
 
 
 ## Sons e música ###############################################################
@@ -145,7 +145,7 @@ default preferences.afm_time = 15
 ## Isso geralmente não deve ser alterado e, se for, deve ser sempre uma string
 ## literal, não uma expressão.
 
-define config.save_directory = "Teste-1710772500"
+define config.save_directory = "RottenCarnisGame-1728394336"
 
 
 ## Ícone #######################################################################
